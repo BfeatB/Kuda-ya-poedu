@@ -1,0 +1,7 @@
+.header {
+  width: calc(100% - 155px);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 55px;
+}

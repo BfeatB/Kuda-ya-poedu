@@ -1,0 +1,3 @@
+.nav__list-item:not(:last-of-type) {
+  margin-right: 40px;
+}
