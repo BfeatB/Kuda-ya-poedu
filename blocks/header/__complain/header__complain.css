@@ -8,6 +8,11 @@
   padding: 0;
 }
 
+.header__complain:hover {
+  cursor: pointer;
+  transform: scale(1.1); 
+}
+
 @media screen and (max-width: 650px) {
   .header__complain {
     align-self: flex-start;
