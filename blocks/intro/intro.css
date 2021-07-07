@@ -1,9 +1,0 @@
-.intro {
-  box-sizing: border-box;
-  width: calc(100% - 80px);
-  display: flex;
-  justify-content: flex-start;
-  margin: 0 auto;
-  margin-top: 95px;
-  margin-left: 80px;
-}
