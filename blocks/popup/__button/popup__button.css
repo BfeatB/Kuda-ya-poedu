@@ -6,19 +6,19 @@
   line-height: 22px;
   text-align: center;
   color: #FFFFFF;
-  margin: 0 auto;
+  margin: 22px auto;
   border: none;
-  margin-top: 22px;
+
 }
 
 .popup__button:hover {
   background-color: rgb(0, 0, 0, .8);
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 900px) {
   .popup__button {
-    height: 48px;
-    width: 240px;
+    height: 40px;
+    width: 230px;
     font-size: 14px;
     line-height: 17px;
     margin-top: 16px;
