@@ -5,5 +5,8 @@
 @media screen and (max-width: 900px) {
     .popup__label {
       font-size: 10px;
+      max-width: 260px;
+      margin: 0 auto;
     }
   }
+ 
