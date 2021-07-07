@@ -35,4 +35,15 @@
     font-weight: 900;
     src: local('Noah Grotesque Black'), url('Noah Grotesque Black.woff') format('woff');
     }
+
+/* montserrat-700 - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v15-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+    src: local('montserrat-v15-latin_cyrillic-700'),
+         url('montserrat-v15-latin_cyrillic-700.woff2') format('woff2'), 
+         url('montserrat-v15-latin_cyrillic-700.woff') format('woff');
+  }
     
