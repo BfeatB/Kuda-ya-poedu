@@ -35,7 +35,7 @@
 @import url(../blocks/quotes/__caption/quotes__caption.css);
 @import url(../blocks/quotes/__cards/quotes__cards.css);
 @import url(../blocks/quotes/__card/quotes__card.css);
-@import url(../blocks/quotes/__card-title/);
+@import url(../blocks/quotes/__card-title/quotes__card-title.css);
 @import url(../blocks/quotes/__text/quotes__text.css);
 
 @import url(../blocks/footer/footer.css);
