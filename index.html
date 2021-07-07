@@ -26,7 +26,7 @@
     <section class="lead">
       <div class="lead__text-container">
         <h1 class="lead__title text text_style_condensed text_style_orange">Куда я поеду</h1>
-        <p class="lead__caption text text_style_bold">Куда я поеду сразу, как можно будет куда-то поехать</p>
+        <p class="lead__caption text_bold">Куда я поеду сразу, как можно будет куда-то поехать</p>
       </div>
         <img src="./images/lead-image.jpeg" alt="фотография хвоста самолета, находящегося в полете выше уровня облаков, на фоне рассвета" class="lead__image">
     </section>
@@ -111,7 +111,7 @@
           <blockquote class="quotes__text">Лишь тот, кто странствует, открывает новые пути.</blockquote>
         </li>
         <li class="quotes__card">
-          <cite class="quotes__card-title text text_style_condensed">Мария Захарова</cite>
+          <cite class="quotes__card-title text text_condensed">Мария Захарова</cite>
           <blockquote class="quotes__text">В принципе зарубежная поездка – это серьезнейшее,
             ответственнейшее и очень рискованное предприятие.</blockquote>
         </li>
@@ -122,9 +122,7 @@
 
   <footer class="footer">
     <p class="footer__copyright">&copy;2021</p>
-    <p class="footer__copyright footer__copyright_names"><a href="https://github.com/BfeatB" class="footer__link">Карпова Валентина</a> и <a href="https://github.com/asadrtdinov" class="footer__link">
-      Садртдинов Артур
-      </a></p>
+    <p class="footer__copyright"><a href="#" class="footer__link">Валя</a> и <a href="#" class="footer__link">Артур</a></p>
   </footer>
 
   <div class="popup">
@@ -133,9 +131,10 @@
       <h2 class="popup__title">Опишите вашу проблему</h2>
       <form class=" popup__form">
         <textarea class ="popup__textarea" name="text" placeholder="Я сильно недоволен тем, что..." cols="30" rows="10"></textarea>
-          <label class="popup__label">
+        <div class="popup__radio-items">
           <input class="popup__radio-button"type="radio" name="choice" id="yes" value="yes">
-          Я подтверждаю, что я &mdash; ябеда&#45;корябеда.</label>
+          <label class="popup__label">Я подтверждаю, что я - ябида-карябида.</label>
+        </div>
         <button class="popup__button" type="submit">Отправить</button>
       </form>
     </div>

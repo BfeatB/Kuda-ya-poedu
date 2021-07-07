@@ -33,7 +33,8 @@
 
 @media screen and (max-width: 767px) {
   .place__text-container {
-    width: calc(100% - 160px);
+    width: calc(100% - 80px);
+    margin-right: 40px;
   }
   
 }
