@@ -1,0 +1,9 @@
+.place {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: rgb(242, 242, 242);
+}
+.place:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}
