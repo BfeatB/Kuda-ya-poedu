@@ -1,5 +1,23 @@
 .lead{
+  width: calc(100% - 155px);
   display: flex;
   justify-content: space-between;
-  margin: 95px 12.4% 147px 78px;
+  margin: 95px auto 147px auto;
+}
+
+@media screen and (max-width: 1050px) {
+  .lead{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 16%);
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .lead{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    padding-left: calc(100%-320px);
+  }
 }
