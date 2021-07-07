@@ -1,0 +1,21 @@
+.popup__textarea {
+  width: 358px;
+  min-height: 100px;
+  border: 1px solid rgb(0, 0, 0, .2);
+  margin: 0 auto 27px auto;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.popup__textarea:focus{
+
+}
+
+@media screen and (max-width: 900px) {
+  .popup__textarea {
+    height: 30px;
+    width: 260px;
+  }
+}
+

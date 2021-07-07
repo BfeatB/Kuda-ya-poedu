@@ -18,14 +18,14 @@
         <li class="header__list-item"><a href="https://clck.ru/VyPHb" class="header__link" target="_blank">Реальность</a></li>
       </ul>
     </nav>
-    <a href="#" class="header__complain link">Пожаловаться</a>
+    <button class="header__complain">Пожаловаться</button>
   </header>
 
   <main class="content">
 
     <section class="lead">
       <div class="lead__text-container">
-        <h1 class="lead__title text_condensed text_orange">Куда я поеду</h1>
+        <h1 class="lead__title text text_style_condensed text_style_orange">Куда я поеду</h1>
         <p class="lead__caption text_bold">Куда я поеду сразу, как можно будет куда-то поехать</p>
       </div>
         <img src="./images/lead-image.jpeg" alt="фотография хвоста самолета, находящегося в полете выше уровня облаков, на фоне рассвета" class="lead__image">
@@ -84,25 +84,25 @@
     </section>
 
     <section class="quotes">
-      <h2 class="quotes__title text_condensed text_orange">Люди</h2>
-      <p class="quotes__caption text_bold">Что говорят и говорили люди о путешествиях</p>
+      <h2 class="quotes__title  text text_style_condensed text_style_orange">Люди</h2>
+      <p class="quotes__caption text text_style_bold">Что говорят и говорили люди о путешествиях</p>
       <ul class="quotes__cards">
         <li class="quotes__card">
-          <cite class="quotes__card-title text_condensed">Иван Бунин</cite>
+          <cite class="quotes__card-title text_style_condensed">Иван Бунин</cite>
         <blockquote class="quotes__text">Человека делают счастливым три вещи:
           любовь, интересная работа и возможность путешествовать.</blockquote>
         </li>
         <li class="quotes__card">
-          <cite class="quotes__card-title text_condensed">Альбер Камю</cite>
+          <cite class="quotes__card-title text text_style_condensed">Альбер Камю</cite>
           <blockquote class="quotes__text">Путешествие как самая великая и серьезная наука помогает нам
             вновь обрести себя.</blockquote>
         </li>
         <li class="quotes__card">
-          <cite class="quotes__card-title text_condensed">Норвежская пословица</cite>
+          <cite class="quotes__card-title text text_style_condensed">Норвежская пословица</cite>
           <blockquote class="quotes__text">Лишь тот, кто странствует, открывает новые пути.</blockquote>
         </li>
         <li class="quotes__card">
-          <cite class="quotes__card-title text_condensed">Мария Захарова</cite>
+          <cite class="quotes__card-title text text_condensed">Мария Захарова</cite>
           <blockquote class="quotes__text">В принципе зарубежная поездка – это серьезнейшее,
             ответственнейшее и очень рискованное предприятие.</blockquote>
         </li>
@@ -115,6 +115,23 @@
     <p class="footer__copyright">&copy;2021</p>
     <p class="footer__copyright"><a href="#" class="footer__link">Валя</a> и <a href="#" class="footer__link">Артур</a></p>
   </footer>
+
+  <div class="popup">
+    <div class="popup__container">
+      <button class="popup__close"></button>
+      <h2 class="popup__title">Опишите вашу проблему</h2>
+      <form class=" popup__form">
+        <textarea class ="popup__textarea" name="text" placeholder="Я сильно недоволен тем, что..." cols="30" rows="10"></textarea>
+        <div class="popup__radio-items">
+          <input class="popup__radio-button"type="radio" name="choice" id="yes" value="yes">
+          <label class="popup__label">Я подтверждаю, что я - ябида-карябида.</label>
+        </div>
+        <button class="popup__button" type="submit">Отправить</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./scripts/index.js"></script>
 
 </body>
 </html>
