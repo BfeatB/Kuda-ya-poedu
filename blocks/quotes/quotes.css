@@ -8,3 +8,9 @@
         margin: 90px 76px 90px 76px;
     }
 }
+
+@media screen and (max-width: 450px){
+    .quotes {
+        margin: 90px 40px;
+    }
+}
