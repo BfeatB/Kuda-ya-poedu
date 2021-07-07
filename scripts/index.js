@@ -11,5 +11,10 @@ closeButton.addEventListener("click", function(){
   editPopup.classList.remove("popup_opened");
 })
 
+let closeButtonSend = document.querySelector(".popup__button");
+closeButtonSend.addEventListener("click", function(){
+  editPopup.classList.remove("popup_opened");
+})
+
 
 
