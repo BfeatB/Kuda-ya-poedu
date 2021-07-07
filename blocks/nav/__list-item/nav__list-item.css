@@ -1,7 +1,0 @@
-.nav__list-item{
-  font-weight: 700;
-}
-
-.nav__list-item:not(:last-of-type) {
-  margin-right: 40px;
-}

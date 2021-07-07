@@ -1,5 +1,5 @@
 .header {
-  width: calc(100% - 155px);
+  width: calc(100% - 11%);
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -7,4 +7,17 @@
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.05em;
+}
+
+@media screen and (max-width: 1050px) {
+  .header {
+    width: calc(100% - 16%);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header {
+    font-size: 14px;
+    margin-top: 35px;
+  }
 }

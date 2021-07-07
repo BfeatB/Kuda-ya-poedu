@@ -18,6 +18,12 @@
   }
 }
 
+@media screen and (max-width: 650px) {
+  .lead__text-container {
+    margin-top: 50px;
+  }
+}
+
 @media screen and (max-width: 380px) {
   .lead__text-container{
     padding-left: 20px;
