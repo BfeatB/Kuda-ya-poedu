@@ -8,14 +8,9 @@
   color: #000000;
 }
 
-.popup__textarea:focus{
-
-}
-
 @media screen and (max-width: 900px) {
   .popup__textarea {
     height: 50px;
     width: 240px;
   }
 }
-

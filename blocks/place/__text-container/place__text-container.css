@@ -30,3 +30,10 @@
     width: calc(50% - 160px);
   }
 }
+
+@media screen and (max-width: 767px) {
+  .place__text-container {
+    width: calc(100% - 160px);
+  }
+  
+}
