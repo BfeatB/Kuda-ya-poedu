@@ -1,5 +1,8 @@
 .header__complain {
   align-self: center;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 650px) {
