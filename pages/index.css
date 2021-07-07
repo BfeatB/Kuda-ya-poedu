@@ -41,3 +41,7 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
+
+@import url(../blocks/text/text_bold.css);
+@import url(../blocks/text/text_condensed.css);
+@import url(../blocks/text/text_orange.css);
