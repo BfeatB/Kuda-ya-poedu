@@ -7,7 +7,7 @@
   width: calc(50% - 300px);
 }
 
-/* @media screen and (max-width: 1439px) {
+@media screen and (max-width: 1439px) {
   .place__text-container {
     margin-right: 195px;
     margin-left: 65px;
@@ -29,4 +29,4 @@
     margin-left: 40px;
     width: calc(50% - 160px);
   }
-} */
+}
