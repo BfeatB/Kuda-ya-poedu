@@ -17,28 +17,28 @@
 
 @media screen and (max-width: 1279px) {
   .place__paragraph {
-    font-size: 12px;
+    font-size: 15px;
   }
   
   .place__paragraph:not(:first-of-type) {
-    margin-top: 25px;
+    margin-top: 20px;
   }
   
   .place__paragraph:last-of-type {
-    margin-bottom: 95px;
+    margin-bottom: 85px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place__paragraph {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .place__paragraph:not(:first-of-type) {
-    margin-top: 25px;
+    margin-top: 15px;
   }
   
   .place__paragraph:last-of-type {
-    margin-bottom: 95px;
+    margin-bottom: 70px;
   }
 }
