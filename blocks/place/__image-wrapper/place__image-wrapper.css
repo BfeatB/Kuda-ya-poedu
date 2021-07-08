@@ -16,6 +16,13 @@
   }
 }
 
+@media screen and (max-width: 822px) {
+  .place__image-wrapper {
+    height: 436px;
+  }
+  
+}
+
 @media screen and (max-width: 767px) {
   .place__image-wrapper {
     width: 100%;
