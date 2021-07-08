@@ -5,6 +5,7 @@
   font-style: normal;
   font-weight: 700;
   margin-top: 70px;
+  margin-bottom: 20px;
   letter-spacing: 0.012em;
 }
 
@@ -23,7 +24,5 @@
 @media screen and (max-width: 1023px) {
   .place__title {
     margin-top: 20px;
-    font-size: 24px;
-    margin-bottom: 20px;
   }
 }
