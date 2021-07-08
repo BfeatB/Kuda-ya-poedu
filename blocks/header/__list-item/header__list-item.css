@@ -3,7 +3,7 @@
 }
 
 .header__list-item:not(:last-of-type) {
-  margin-right: 40px;
+  margin-right: 38px;
 }
 
 @media screen and (max-width: 650px) {
