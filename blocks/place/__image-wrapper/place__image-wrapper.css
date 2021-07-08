@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1023px) {
   .place__image-wrapper {
-    height: -10%;  
+    height: 425px;  
   }
 }
 
