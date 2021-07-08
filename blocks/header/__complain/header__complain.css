@@ -14,6 +14,11 @@
   transform: scale(1.1); 
 }
 
+.header__complain:focus {
+  cursor: pointer;
+  transform: scale(1.1); 
+}
+
 @media screen and (max-width: 650px) {
   .header__complain {
     align-self: flex-start;
