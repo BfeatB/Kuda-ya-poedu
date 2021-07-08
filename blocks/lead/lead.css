@@ -5,7 +5,7 @@
   margin: 95px auto 147px auto;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 750px) {
   .lead{
     display: flex;
     flex-direction: column;
