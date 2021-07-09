@@ -19,11 +19,11 @@
   .place__paragraph {
     font-size: 15px;
   }
-  
+
   .place__paragraph:not(:first-of-type) {
     margin-top: 20px;
   }
-  
+
   .place__paragraph:last-of-type {
     margin-bottom: 85px;
   }
@@ -37,8 +37,14 @@
   .place__paragraph:not(:first-of-type) {
     margin-top: 15px;
   }
-  
+
   .place__paragraph:last-of-type {
     margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    font-size: 15px;
   }
 }
