@@ -8,6 +8,6 @@
     .popup__label {
       font-size: 12px;
       max-width: 260px;
-      margin: 0 auto;
+      margin: 0 10px;
     }
   }
