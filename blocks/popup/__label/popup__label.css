@@ -1,5 +1,7 @@
 .popup__label {
-    margin-left: 10px;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-start;
 }
 
 @media screen and (max-width: 900px) {
@@ -9,4 +11,3 @@
       margin: 0 auto;
     }
   }
- 
