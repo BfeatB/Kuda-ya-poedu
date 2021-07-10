@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 220px;
+  margin-right: 166px;
   margin-left: 80px;
-  width: calc(50% - 300px);
+  width: calc(50% - 246px);
 }
 
 @media screen and (max-width: 1439px) {
@@ -36,5 +36,4 @@
     width: calc(100% - 80px);
     margin-right: 40px;
   }
-  
 }

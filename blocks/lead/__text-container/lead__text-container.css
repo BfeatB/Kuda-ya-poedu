@@ -8,19 +8,20 @@
  @media screen and (max-width: 1150px) {
    .lead__text-container {
      max-width: 50%;
+     margin-top: 80px;
    }
  }
 
- @media screen and (max-width: 1050px) {
+@media screen and (max-width: 900px) {
   .lead__text-container {
-    max-width: 90%;
-    margin-bottom: 30px;
+    margin-top: 50px;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
   .lead__text-container {
-    margin-top: 50px;
+    max-width: 90%;
+    margin-bottom: 20px;
   }
 }
 

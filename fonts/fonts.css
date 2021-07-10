@@ -1,49 +1,55 @@
-    @font-face {
-    font-family: 'Grotesque';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Noah Grotesque Regular'), url('Noah Grotesque Regular.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Grotesque';
-    font-style: normal;
-    font-weight: 200;
-    src: local('Noah Grotesque Light'), url('Noah Grotesque Light.woff') format('woff');
-    }
-
-    @font-face {
-    font-family: 'Grotesque';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Noah Grotesque Bold'), url('Noah Grotesque Bold.woff') format('woff');
-    }
-    
-    @font-face {
-        font-family: 'Grotesque';
-        font-style: normal;
-        font-weight: 800;
-        src: local('Noah Grotesque Bolder'), url('BasisGrotesqueMonoPro-Bold.woff') format('woff'),
-        local('Noah Grotesque Bolder'), url('BasisGrotesqueMonoPro-Bold.woff2') format('woff2');
-        }
-
-
-    @font-face {
-    font-family: 'Grotesque';
-    font-style: normal;
-    font-weight: 900;
-    src: local('Noah Grotesque Black'), url('Noah Grotesque Black.woff') format('woff');
-    }
-
-/* montserrat-700 - latin_cyrillic */
 @font-face {
-    font-family: 'Montserrat';
+  font-family: 'Grotesque';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noah Grotesque Regular'),
+        url('Noah Grotesque Regular.woff') format('woff'),
+        url('NoahGrotesque-Regular.woff2') format('woff2');
+}
+
+
+@font-face {
+  font-family: 'Grotesque';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Noah Grotesque Light'),
+        url('Noah Grotesque Light.woff') format('woff'),
+        url('NoahGrotesque-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Grotesque';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noah Grotesque Bold'),
+        url('Noah Grotesque Bold.woff') format('woff'),
+        url('NoahGrotesque-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Grotesque';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Noah Grotesque Bolder'),
+        url('BasisGrotesqueMonoPro-Bold.woff') format('woff'),
+        url('BasisGrotesqueMonoPro-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Grotesque';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Noah Grotesque Black'),
+        url('Noah Grotesque Black.woff') format('woff'),
+        url('NoahGrotesque-Regular.woff2') format('woff2');
+}
+
+  @font-face {
+    font-family: 'Sans';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/montserrat-v15-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
-    src: local('montserrat-v15-latin_cyrillic-700'),
-         url('montserrat-v15-latin_cyrillic-700.woff2') format('woff2'), 
-         url('montserrat-v15-latin_cyrillic-700.woff') format('woff');
+    src: local('Noah Grotesque Black'),
+          url('SoinSansNeue-Bold.woff') format('woff'),
+          url('SoinSansNeue-Bold.woff2') format('woff2');
   }
-    
+

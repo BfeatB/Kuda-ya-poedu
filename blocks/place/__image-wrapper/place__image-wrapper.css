@@ -6,26 +6,24 @@
 
 @media screen and (max-width: 1439px) {
   .place__image-wrapper {
-    height: 530px;  
+    height: 530px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place__image-wrapper {
-    height: 425px;  
+    height: 425px;
   }
 }
 
 @media screen and (max-width: 822px) {
   .place__image-wrapper {
-    height: 436px;
+    height: 455px;
   }
-  
 }
 
 @media screen and (max-width: 767px) {
   .place__image-wrapper {
     width: 100%;
   }
-  
 }
